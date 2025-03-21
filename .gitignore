@@ -1,4 +1,5 @@
 # Nuxt dev/build outputs
+# We keep the generate output !!
 .output
 .nuxt
 .nitro
@@ -25,3 +26,8 @@ logs
 rt_base
 
 .history
+
+
+# python
+__pycache__
+.ipynb_checkpoints

@@ -1,0 +1,18 @@
+[project]
+name = "zkml-bootcamp2025q1-g6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ezkl>=19.0.7",
+    "fastapi[standard]>=0.115.8",
+    "jupyter-collaboration>=3.1.0",
+    "jupyterlab>=4.3.5",
+    "onnx>=1.17.0",
+    "pillow>=11.1.0",
+    "psutil>=6.1.1",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "typer>=0.15.1",
+]

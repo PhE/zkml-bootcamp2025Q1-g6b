@@ -1,4 +1,14 @@
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/front/',
+  },
+  image: {
+    ipxStatic: {
+      baseURL: '/front/_ipx',
+    },
+  },
+  robots: { robotsTxt: false },
+
   modules: [
     '@vueuse/nuxt',
     '@nuxt/ui',
