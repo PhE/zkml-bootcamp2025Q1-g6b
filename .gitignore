@@ -1,6 +1,6 @@
 # Nuxt dev/build outputs
 # We keep the generate output !!
-.output
+#.output
 .nuxt
 .nitro
 .cache
