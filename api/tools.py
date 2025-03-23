@@ -16,6 +16,7 @@ origins = [
     # "http://localhost.tiangolo.com",
     # "https://localhost.tiangolo.com",
     "http://localhost",
+    "http://localhost:3000",
     "http://localhost:8889",
     "https://zkg6-front.s3-website.nl-ams.scw.cloud",
     "http://zkg6-front.s3-website.nl-ams.scw.cloud",

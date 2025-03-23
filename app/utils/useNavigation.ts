@@ -16,13 +16,13 @@ export function getNavigation(where: Where): Record<string, Navigation> | [] {
           icon: 'lucide:home',
         },
         works: {
-          name: 'Works',
-          to: '/works',
+          name: 'Prove',
+          to: '/prove',
           icon: 'lucide:briefcase',
         },
         writing: {
-          name: 'Writing',
-          to: '/writing',
+          name: 'Verify',
+          to: '/verify',
           icon: 'lucide:library',
         },
         about: {

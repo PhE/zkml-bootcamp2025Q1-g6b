@@ -18,3 +18,6 @@
 # CI/CD
 .gitlab-ci.yml
 .circleci
+
+# python
+.venv

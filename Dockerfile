@@ -10,8 +10,8 @@ WORKDIR /app
 # https://github.com/PhE/zkml-bootcamp2025Q1-g6
 # git@github.com:PhE/zkml-bootcamp2025Q1-g6.git
 # https://github.com/PhE/zkml-bootcamp2025Q1-g6.git
-ENV GIT_CHECKOUT=true
-ENV GIT_REPO=github.com/PhE/zkml-bootcamp2025Q1-g6
+ENV GIT_CHECKOUT=no
+ENV GIT_REPO=github.com/PhE/zkml-bootcamp2025Q1-g6b
 ENV GIT_BRANCH=main
 # set GIT_TOKEN in deploy env
 ENV GIT_TOKEN=xxxx
@@ -27,11 +27,11 @@ RUN apt update \
 
 # Install the application dependencies.
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
-COPY pyproject.toml uv.lock /app
+COPY pyproject.toml uv.lock /app/
 RUN uv sync --frozen --no-cache
 
 # Copy the application into the container.
-COPY . /app
+COPY . /app/
 
 
 

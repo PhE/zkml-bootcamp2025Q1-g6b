@@ -53,7 +53,7 @@ def get_image(image_idx: int):
 # root redirects to docs
 @app.get("/", tags=["misc"])
 def home():
-    return RedirectResponse("/docs")
+    return RedirectResponse("/front/en.html")
 
 
 # usual health check endpoint
